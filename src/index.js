@@ -20,6 +20,10 @@ db.connect((err) => {
     }
 });
 
+app.get('/getPrediction', async (req, res) => {
+
+})
+
 app.post('/prediction', async (req, res) => {
     const prediction = req.body
     try {
@@ -42,10 +46,6 @@ app.post('/prediction', async (req, res) => {
         res.status(500).send('Something went wrong');
     }
 });
-
-app.get('/getPrediction', async (req, res) => {
-
-})
 
 app.get('/', async (req, res) => {
     res.json("Welcome Credit Prediction APi")
