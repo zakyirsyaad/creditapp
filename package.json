@@ -10,9 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/sql": "^0.13.0",
     "axios": "^1.7.2",
     "express": "^4.19.2",
-    "mysql2": "^3.10.0",
+    "mysql2": "^3.10.1",
     "nodemon": "^3.1.1"
   }
 }
