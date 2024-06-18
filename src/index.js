@@ -21,8 +21,40 @@ db.connect((err) => {
 });
 
 app.get('/getPrediction', async (req, res) => {
- res.json("getPrediction")
-})
+    try {
+        db.query('SHOW TABLES', (error, tables) => {
+            if (error) {
+                console.error("Error fetching tables:", error);
+                res.status(500).send('Failed to fetch tables');
+                return;
+            }
+
+            let tableNames = tables.map(row => Object.values(row)[0]);
+            let allData = {};
+            let queriesRemaining = tableNames.length;
+
+            tableNames.forEach(table => {
+                db.query(`SELECT * FROM ${table}`, (error, results) => {
+                    if (error) {
+                        console.error(`Error fetching data from table ${table}:`, error);
+                        allData[table] = 'Failed to fetch data';
+                    } else {
+                        allData[table] = results;
+                    }
+
+                    queriesRemaining--;
+
+                    if (queriesRemaining === 0) {
+                        res.json(allData);
+                    }
+                });
+            });
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).send('Something went wrong');
+    }
+});
 
 app.post('/prediction', async (req, res) => {
     const prediction = req.body
