@@ -21,7 +21,7 @@ db.connect((err) => {
 });
 
 app.get('/getPrediction', async (req, res) => {
-
+ res.json("getPrediction")
 })
 
 app.post('/prediction', async (req, res) => {
