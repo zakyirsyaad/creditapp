@@ -17,7 +17,7 @@ Powered by:
 Google Cloud Platform (GCP) is a suite of cloud computing services offered by Google. It provides a robust infrastructure and various services for running applications, managing and storing data, and developing software solutions.
 
 The specific cloud technologies used in this project include:
-- **Google Cloud Run** is used for deploying and managing containerized applications, including the machine learning model and backend services.
+- **Google Cloud Run**
 - **Google Cloud SQL** 
 - **Google Cloud Monitoring** 
 - **Google Cloud IAM** 
@@ -43,6 +43,10 @@ The specific cloud technologies used in this project include:
 - **CPU**: 1000m
 - **Docs**: [cloud-run-docs](#)
 
+## Navigation
+- [Machine Learning Repository](https://github.com/Jafarrrr25/CapstoneML)
+- [Mobile Development Repository](https://github.com/tookxedo/CreditPredict)
+  
 ---
 
 This README document includes essential details about the URLs, cloud technology, and specific service configurations for the `CreditPredict` project. The links to the relevant services and documentation are provided for further reference.
