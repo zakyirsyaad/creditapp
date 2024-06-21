@@ -21,7 +21,6 @@ The specific cloud technologies used in this project include:
 - **Google Cloud SQL** 
 - **Google Cloud Monitoring** 
 - **Google Cloud IAM** 
-- **Railway** 
 
 ## Service Details
 
