@@ -1,3 +1,19 @@
+# Bangkit 2024 Capstone Team : Credit (C241-PS483)
+
+Hello everyone!. Here is our repository Mobile Development path Team for Bangkit 2024 Capstone project. Our team consist of 3 Machine Learning, 2 Android, and 2 Cloud Computing.
+
+## Our Knights
+
+|            Nama             |  Bangkit-ID  |       Path       |
+| :-------------------------: | :----------: | :--------------: |
+|        Ariyova Banua        | M391D4KY1880 | Machine Learning |
+|       Fajar Al Najiim       | M391D4KY2415 | Machine Learning |
+|   Josep Daniel Simatupang   | M391D4KY2654 | Machine Learning |
+|      Zaky Irsyad Rais       | C214D4KY0273 | Cloud Computing  |
+|       Hanun Salsabila       |   	C183D4KX0956  | Cloud Computing  |
+| Ahmad Ryan Saffah Yartavick | A548D4NY4609 |     Android      |
+|       Ekasari Amalia        | A548D4NX4606 |     Android      |
+
 # CreditPredict - Cloud Computing
 
 Welcome to the CreditPredict project! This document provides an overview of the cloud computing technology used in the project and the deployment details.
