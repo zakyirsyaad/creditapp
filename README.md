@@ -59,8 +59,8 @@ The specific cloud technologies used in this project include:
 - **Docs**: [cloud-run-docs](#)
 
 ## Navigation
-- ### [&nbsp;&nbsp;Macine Learning](https://github.com/Jafarrrr25/CapstoneML)
-- ### [&nbsp;&nbsp;Cloud Computing](https://github.com/tookxedo/CreditPredict)
+- ### [&nbsp;&nbsp;Machine Learning](https://github.com/Jafarrrr25/CapstoneML)
+- ### [&nbsp;&nbsp;Mobile Development](https://github.com/tookxedo/CreditPredict)
 ---
 
 This README document includes essential details about the URLs, cloud technology, and specific service configurations for the `CreditPredict` project. The links to the relevant services and documentation are provided for further reference.
