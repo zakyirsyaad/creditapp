@@ -48,7 +48,7 @@ The specific cloud technologies used in this project include:
 - **Location**: asia-southeast2
 - **Memory**: 1Gi
 - **CPU**: 1000m
-- **Docs**: [cloud-run-docs](#)
+- **Docs**: [cloud-run-docs](https://cloud.google.com/run/docs?hl=id)
 
 #### Back-end Service
 
@@ -56,7 +56,7 @@ The specific cloud technologies used in this project include:
 - **Location**: asia-southeast2
 - **Memory**: 512Mi
 - **CPU**: 1000m
-- **Docs**: [cloud-run-docs](#)
+- **Docs**: [cloud-run-docs](https://cloud.google.com/run/docs?hl=id)
 
 ## Navigation
 - ### [&nbsp;&nbsp;Machine Learning](https://github.com/Jafarrrr25/CapstoneML)
