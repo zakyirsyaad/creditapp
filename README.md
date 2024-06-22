@@ -30,7 +30,7 @@ Powered by:
 
 [![Google Cloud Platform](https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg)](https://cloud.google.com)
 
-Google Cloud Platform (GCP) is a suite of cloud computing services offered by Google. It provides a robust infrastructure and various services for running applications, managing and storing data, and developing software solutions.
+[Google Cloud Platform (GCP)](https://console.cloud.google.com/) is a suite of cloud computing services offered by Google. It provides a robust infrastructure and various services for running applications, managing and storing data, and developing software solutions.
 
 The specific cloud technologies used in this project include:
 - **Google Cloud Run**
